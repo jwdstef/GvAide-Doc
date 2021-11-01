@@ -36,7 +36,7 @@ GV 比价助手是一个支持跨平台的基于第三方机器人协议封装�
 ```yaml
 vlwConfig:
   addres: http://127.0.0.1:5000/ #VLW http服务监听地址
-  token: FengG1.. #VLW API调用全局Token
+  token: FengG1.. #VLW API调用全局Token 必填
   whetherAgreeFriend: false # 是否自动同意好友请求
 cQConfig:
   whetherAgreeFriend: true #是否自动同意好友请求
@@ -70,7 +70,6 @@ otherConfig:
 
 找到推广中心 PID 管理 添加你淘宝授权 pid 对应配置文件 `ztkPid`
 
-
 ### 京品库
 
 申请京品库开发者应用，https://member.jingpinku.com/develop/index.do，审核一天，获取appid和appkey。申请通过后，
@@ -82,15 +81,24 @@ otherConfig:
 手机下载京粉 APP 我 正上方 联盟 ID 对应配置文件 `jpkUnionId`
 
 ### windows 支持微信 QQ
+
 **教程太过小白和啰嗦 不够简单 其实配置起来很方便**
-群里下载独立版的GvAide压缩包
-1. 到群里下载 Windows 版本的压缩包 解压 找到 GvAide 打开打开之后 目录下找到`config.yaml` 文件
-2. 配置 CQhttp 前往https://github.com/Mrs4s/go-cqhttp/releases 下载你电脑版本的 cqhttp![](https://i.loli.net/2021/11/01/NxwobECI76fGtTO.png) 下载压缩包或者安装包都可以 群里有个 cqhtto 的配置文件 名称为`config.yml` 拉到 cqhttp 的目录下 ![](https://i.loli.net/2021/11/01/mbn64rCdOKIfwzs.png) 启动主程序 扫码登录
-3. windows 支持微信 到群里下载 VLW 框架 打开之后会提示你安装指定版本的微信 安装过后重新启动 VLW 为了防止微信版本更新 请使用压缩包内一个名称为`改host地址指向本地防更新`点开 闪一下就可以了 之后点击插件管理 找到插件 xYo_httpApi_WeChat-->启用-->设置 ![](https://i.loli.net/2021/11/01/8fSg6FMarVT4Xj5.png) 启用自动开启服务 设置全局调用 token 设置完毕点击启动服务
-4. 找到你解压过后比价助手的目录 找到`config.yaml`文件 填写好配置文件 启动 cqhttp（登录过的） vlw 启动微信（xYo_httpApi_WeChat 要开启服务） 就可以使用了
-#### 简单版
-不需要安装运行环境 群里下载Windows指定版本的压缩版 解压 打开vlw 和cqhttp 运行 ok
+群里下载独立版的 GvAide 压缩包
+
+1. 到群里下载 Windows 版本的压缩包 解压 找到 GvAide.exe 打开一下关闭 目录下找到`config.yaml` 文件
+2. https://github.com/Mrs4s/go-cqhttp/releases 默认下载 386 结尾的 用不了再下载你电脑架构的版本 (**下载错误会导致你 cqhttp 打不开**)
+   <img src="https://i.loli.net/2021/11/01/NxwobECI76fGtTO.png" width = "800" height = "400"  />
+   cqhttp![]() 下载压缩包或者安装包都可以 群里有个配置文件 名称为`config.yml`
+   拉到 cqhttp 的目录下 ![](https://i.loli.net/2021/11/01/mbn64rCdOKIfwzs.png)
+   启动主程序 扫码登录 登录过后不要关闭 (**无视 WARING**)
+3. windows 支持微信 到群里下载 VLW 框架 打开之后会提示你安装指定版本的微信 安装过后启动 VLW
+   **为了防止微信版本更新 请使用压缩包内一个名称为`改host地址指向本地防更新.exe`点开 闪一下就可以了**
+   之后点击插件管理 找到插件 xYo_httpApi_WeChat-->启用-->设置 启用自动开启服务 设置 API 调用 token 设置完毕点击启动服务 之后就可以使用 VLW 启动微信了 登录一下
+   ![](https://i.loli.net/2021/11/01/8fSg6FMarVT4Xj5.png)
+4. 找到你解压过后 GvAide 的目录 找到`config.yaml`文件(**没有就先运行一下**) 填写好配置文件 打开`GvAide.exe` 就可以了
+
 ## 打赏 购买
-请联系Q:2628791395
+
+请联系 Q:2628791395
 
 <img src="https://i.loli.net/2021/11/01/vCFNikThqdYlaKz.jpg" width = "300" height = "300"  />
