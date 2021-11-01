@@ -80,11 +80,8 @@ otherConfig:
 
 手机下载京粉 APP 我 正上方 联盟 ID 对应配置文件 `jpkUnionId`
 
-### windows 支持微信 QQ
-
-**教程太过小白和啰嗦 不够简单 其实配置起来很方便**
-群里下载独立版的 GvAide 压缩包
-
+### 部署教程
+#### windows
 1. 到群里下载 Windows 版本的压缩包 解压 找到 GvAide.exe 打开一下关闭 目录下找到`config.yaml` 文件
 2. https://github.com/Mrs4s/go-cqhttp/releases 默认下载 386 结尾的 用不了再下载你电脑架构的版本 (**下载错误会导致你 cqhttp 打不开**)
    <img src="https://i.loli.net/2021/11/01/NxwobECI76fGtTO.png" width = "800" height = "400"  />
@@ -96,7 +93,21 @@ otherConfig:
    之后点击插件管理 找到插件 xYo_httpApi_WeChat-->启用-->设置 启用自动开启服务 设置 API 调用 token 设置完毕点击启动服务 之后就可以使用 VLW 启动微信了 登录一下
    ![](https://i.loli.net/2021/11/01/8fSg6FMarVT4Xj5.png)
 4. 找到你解压过后 GvAide 的目录 找到`config.yaml`文件(**没有就先运行一下**) 填写好配置文件 打开`GvAide.exe` 就可以了
-5. 
+#### liunx
+1. 到群里下载你 liunx 架构对应版本的压缩包(**下载错了会导致打不开各种报错**) -->上传到你liunx服务器-->解压-->找到GvAide-->使用命令`./GvAide`生成配置文件-->使用Ctrl+C 退出 (配置文件初始化完毕)
+2. https://github.com/Mrs4s/go-cqhttp/releases 下载你liunx系统对应的压缩包-->解压--> 群里有个配置文件 名称为`config.yml` 下载下来 上传到你go-cqhttp的目录下-->使用命令`./go-cqhttp`运行go-cqhttp -->扫码登录QQ小号 --->使用Ctrl+C 退出
+3. 使用命令持久运行CQhttp和GvAide (下面看)
+
+``` bash
+ps -ajx|grep XX #查看软件后台运行进程id
+kill -9 进程id #使用进程id杀掉后台
+chmod 777 XXX #赋予权限
+./XXX #前台运行 使用 Ctrl+C 退出
+nohup ./XX & #持久运行
+
+uname -a #查看系统架构信息 用于查看是否有支持的GvAide压缩包
+```
+
 #### 常见问题
 Q:为什么全部配置好了 GvAide助手也能收到消息和返回日志 还是不发送
 A:修改VLW Http插件端口配置 可能是端口被占用 修改完毕要关闭服务后再打开 GvAide也要修改相对应的配置
