@@ -83,11 +83,11 @@ otherConfig:
 
 ### windows 支持微信 QQ
 **教程太过小白和啰嗦 不够简单 其实配置起来很方便**
-1. 下载.Net 运行时 https://dotnet.microsoft.com/download/dotnet/5.0 ![](https://i.loli.net/2021/11/01/ZMBpcJjl7nwQxEd.png) 一般 windows 系统都是 x64 或者 x86 如果你是 32 位就选择 x86 64 就选择 x64 arm 就选 Arm64 下载过后安装
-2. 到群里下载 Windows 版本的压缩包 解压 找到 GvAide 打开打开之后 目录下找到`config.yaml` 文件
-3. 配置 CQhttp 前往https://github.com/Mrs4s/go-cqhttp/releases 下载你电脑版本的 cqhttp![](https://i.loli.net/2021/11/01/NxwobECI76fGtTO.png) 下载压缩包或者安装包都可以 群里有个 cqhtto 的配置文件 名称为`config.yml` 拉到 cqhttp 的目录下 ![](https://i.loli.net/2021/11/01/mbn64rCdOKIfwzs.png) 启动主程序 扫码登录
-4. windows 支持微信 到群里下载 VLW 框架 打开之后会提示你安装指定版本的微信 安装过后重新启动 VLW 为了防止微信版本更新 请使用压缩包内一个名称为`改host地址指向本地防更新`点开 闪一下就可以了 之后点击插件管理 找到插件 xYo_httpApi_WeChat-->启用-->设置 ![](https://i.loli.net/2021/11/01/8fSg6FMarVT4Xj5.png) 启用自动开启服务 设置全局调用 token 设置完毕点击启动服务
-5. 找到你解压过后比价助手的目录 找到`config.yaml`文件 填写好配置文件 启动 cqhttp（登录过的） vlw 启动微信（xYo_httpApi_WeChat 要开启服务） 就可以使用了
+群里下载独立版的GvAide压缩包
+1. 到群里下载 Windows 版本的压缩包 解压 找到 GvAide 打开打开之后 目录下找到`config.yaml` 文件
+2. 配置 CQhttp 前往https://github.com/Mrs4s/go-cqhttp/releases 下载你电脑版本的 cqhttp![](https://i.loli.net/2021/11/01/NxwobECI76fGtTO.png) 下载压缩包或者安装包都可以 群里有个 cqhtto 的配置文件 名称为`config.yml` 拉到 cqhttp 的目录下 ![](https://i.loli.net/2021/11/01/mbn64rCdOKIfwzs.png) 启动主程序 扫码登录
+3. windows 支持微信 到群里下载 VLW 框架 打开之后会提示你安装指定版本的微信 安装过后重新启动 VLW 为了防止微信版本更新 请使用压缩包内一个名称为`改host地址指向本地防更新`点开 闪一下就可以了 之后点击插件管理 找到插件 xYo_httpApi_WeChat-->启用-->设置 ![](https://i.loli.net/2021/11/01/8fSg6FMarVT4Xj5.png) 启用自动开启服务 设置全局调用 token 设置完毕点击启动服务
+4. 找到你解压过后比价助手的目录 找到`config.yaml`文件 填写好配置文件 启动 cqhttp（登录过的） vlw 启动微信（xYo_httpApi_WeChat 要开启服务） 就可以使用了
 #### 简单版
 不需要安装运行环境 群里下载Windows指定版本的压缩版 解压 打开vlw 和cqhttp 运行 ok
 ## 打赏 购买
