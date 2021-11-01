@@ -96,6 +96,10 @@ otherConfig:
    之后点击插件管理 找到插件 xYo_httpApi_WeChat-->启用-->设置 启用自动开启服务 设置 API 调用 token 设置完毕点击启动服务 之后就可以使用 VLW 启动微信了 登录一下
    ![](https://i.loli.net/2021/11/01/8fSg6FMarVT4Xj5.png)
 4. 找到你解压过后 GvAide 的目录 找到`config.yaml`文件(**没有就先运行一下**) 填写好配置文件 打开`GvAide.exe` 就可以了
+5. 
+#### 常见问题
+Q:为什么全部配置好了 GvAide助手也能收到消息和返回日志 还是不发送
+A:修改VLW Http插件端口配置 可能是端口被占用 修改完毕要关闭服务后再打开 GvAide也要修改相对应的配置
 
 ## 打赏 购买
 
