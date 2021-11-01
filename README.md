@@ -33,9 +33,6 @@ GV 比价助手是一个支持跨平台的基于第三方机器人协议封装�
 程序启动第一次会创建配置文件
 以下为配置文件列子 请修改为自己的配置文件
 
-如果您使用了傻妞 请在傻妞 cqhttp 配置文件 `config.yml` 连接服务列表--> HTTP 通信设置-->反向 HTTP POST 地址列表
-添加一行 ` - url: "http://localhost:7270/api/qqCQ" # 地址 如果是本机请填写为localhost 如果是其他服务器地址请修改为IP或者域名`
-
 ```yaml
 vlwConfig:
   addres: http://127.0.0.1:5000/ #VLW http服务监听地址
