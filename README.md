@@ -64,15 +64,22 @@ otherConfig:
 ### 折淘客
 
 注册网址:http://www.zhetaoke.com/user/user_register.html
+
 找到个人信息 授权管理 Appkey 查看 对应配置文件 `ztkKey`
+
 找到个人信息 授权管理 添加你的淘宝账户授权 对应配置文件 `ztkSid`
+
 找到推广中心 PID 管理 添加你淘宝授权 pid 对应配置文件 `ztkPid`
+
 
 ### 京品库
 
 申请京品库开发者应用，https://member.jingpinku.com/develop/index.do，审核一天，获取appid和appkey。申请通过后，
+
 京品库 appid 对应配置文件 `jpkId`
+
 京品库 appkey 对应配置文件 `jpkKey`
+
 手机下载京粉 APP 我 正上方 联盟 ID 对应配置文件 `jpkUnionId`
 
 ### windows 支持微信 QQ
