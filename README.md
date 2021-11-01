@@ -99,6 +99,6 @@ otherConfig:
 
 ## 打赏 购买
 
-请联系 Q:2628791395
+请加Q群:917147677 联系群主
 
 <img src="https://i.loli.net/2021/11/01/vCFNikThqdYlaKz.jpg" width = "300" height = "300"  />
