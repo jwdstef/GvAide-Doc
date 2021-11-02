@@ -96,7 +96,7 @@ otherConfig:
 #### liunx
 - **一定要使用root权限运行以下命令**
 1. 到群里下载你 liunx 架构对应版本的压缩包(**下载错了会导致打不开各种报错**) -->上传到你liunx服务器-->解压-->找到GvAide-->使用命令`./GvAide`生成配置文件-->使用Ctrl+C 退出 (配置文件初始化完毕)
-2. https://github.com/Mrs4s/go-cqhttp/releases 下载你liunx系统对应的压缩包-->解压--> 群里有个配置文件 名称为`config.yml` 下载下来 上传到你go-cqhttp的目录下-->使用命令`./go-cqhttp`运行go-cqhttp -->扫码登录QQ小号 --->使用Ctrl+C 退出
+2. https://github.com/Mrs4s/go-cqhttp/releases 下载你liunx系统对应的压缩包(**下载错了会导致打不开各种报错**)-->解压--> 群里有个配置文件 名称为`config.yml` 下载下来 上传到你go-cqhttp的目录下-->使用命令`./go-cqhttp`运行go-cqhttp -->扫码登录QQ小号 --->使用Ctrl+C 退出
 3. 使用命令持久运行CQhttp和GvAide (下面看)
 
 ``` bash
@@ -111,7 +111,7 @@ uname -a #查看系统架构信息 用于查看是否有支持的GvAide压缩包
 
 #### 常见问题
 Q:为什么全部配置好了 GvAide助手也能收到消息和返回日志 还是不发送
-A:修改VLW Http插件端口配置 可能是端口被占用 修改完毕要关闭服务后再打开 GvAide也要修改相对应的配置
+A:修改VLW Http插件端口配置 可能是端口被占用 修改完毕要重启VLW http服务 GvAide也要修改相对应的配置
 ## 打赏 购买
 
 请加Q群:917147677 联系群主
