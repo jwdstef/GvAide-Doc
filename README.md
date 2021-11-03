@@ -83,7 +83,7 @@ otherConfig:
 ### 部署教程
 #### windows
 1. 到群里下载 Windows 版本的压缩包 解压 找到 GvAide.exe 打开一下关闭 目录下找到`config.yaml` 文件
-2. https://github.com/Mrs4s/go-cqhttp/releases 默认下载 386 结尾的 用不了再下载你电脑架构的版本 (**下载错误会导致你 cqhttp 打不开**)
+2. https://github.com/Mrs4s/go-cqhttp/releases windows默认下载 386 结尾的 用不了再下载你电脑架构的版本 (**下载错误会导致你 cqhttp 打不开**)
    <img src="https://i.loli.net/2021/11/01/NxwobECI76fGtTO.png" width = "800" height = "400"  />
    cqhttp![]() 下载压缩包或者安装包都可以 群里有个配置文件 名称为`config.yml`
    拉到 cqhttp 的目录下 ![](https://i.loli.net/2021/11/01/mbn64rCdOKIfwzs.png)
