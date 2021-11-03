@@ -106,7 +106,8 @@ chmod 777 XXX #赋予权限
 ./XXX #前台运行 使用 Ctrl+C 退出
 nohup ./XX & #持久运行
 
-uname -a #查看系统架构信息 用于查看是否有支持的GvAide压缩包
+uname -a #liunx查看系统架构信息 用于查看是否有支持的GvAide压缩包
+systeminfo # windows查看当前系统信息
 ```
 
 #### 常见问题
